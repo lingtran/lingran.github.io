@@ -3,12 +3,14 @@ body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 15px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
-div{
+.container {
   text-align: justify;
   text-justify: inter-word;
+  margin: 45px;
+  padding: 5px;
 }
 
 code {
