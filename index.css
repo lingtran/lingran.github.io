@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New';
+    font-family: 'Courier New', Courier, monospace;
     font-size: medium;
 }
 
@@ -19,5 +19,36 @@ body {
 }
 
 .caption {
+    font-size: x-small;
+}
+
+.heading {
+    font-weight: bolder;   
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.icon {
+    height: 1em;
+    width: 1em;
+    display: block;
+}
+
+.icon__github {
+    background: url('./GitHub-Mark-120px-plus.png');
+}
+
+.icon__linkedin {
+    background: url('./LI-In-Bug.png');
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
 }
