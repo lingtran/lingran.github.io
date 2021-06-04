@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New';
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 1em;
+}
+
+.item {
+    margin: 0.5em;
+    padding: 0.5em;
+    align-self: center
+}
+
+.caption {
+    font-size: small;
+}
