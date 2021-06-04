@@ -35,17 +35,18 @@ body {
 }
 
 .icon {
-    height: 1em;
-    width: 1em;
+    height: 8em;
+    width: 8em;
     display: block;
+    background-repeat: no-repeat;
 }
 
 .icon__github {
-    background: url('./GitHub-Mark-120px-plus.png');
+    background-image: url('./GitHub-Mark-120px-plus.png');
 }
 
 .icon__linkedin {
-    background: url('./LI-In-Bug.png');
+    background-image: url('./LI-In-Bug.png');
 }
 
 footer {
