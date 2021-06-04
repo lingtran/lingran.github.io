@@ -38,15 +38,16 @@ body {
     height: 8em;
     width: 8em;
     display: block;
-    background-repeat: no-repeat;
 }
 
 .icon__github {
     background-image: url('./GitHub-Mark-120px-plus.png');
+    background-repeat: no-repeat;
 }
 
 .icon__linkedin {
     background-image: url('./LI-In-Bug.png');
+    background-repeat: no-repeat;
 }
 
 footer {
